@@ -107,11 +107,6 @@ section{
     padding: 20px;
 }
 
-.bottom-right{
-    background-color: blue;
-    border-radius: 25px;
-}
-
 .top-text{
     grid-area: top-text;
 
