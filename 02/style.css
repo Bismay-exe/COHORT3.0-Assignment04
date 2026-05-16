@@ -230,6 +230,47 @@ main {
     font-size: 20px;
 }
 
+
+
+.theme{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.toggle-btn{
+    width:85px;
+    height: 40px;
+
+    background-color: #1f1f21;
+    border-radius: 100px;
+
+    position: relative;
+}
+
+.toggle-btn i{
+    position: absolute;
+    top: 12%;
+    right: 5px;
+
+    width: 30px;
+    height: 30px;
+    scale: 1.2;
+    rotate: -90deg;
+
+    background-color: white;
+    color: black;
+    font-size: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+}
+
+
+
 .learning {
     display: flex;
     justify-content: space-between;
